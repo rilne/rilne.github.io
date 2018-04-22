@@ -48,9 +48,9 @@ window.onkeyup = function(e){
 			}
 		}
 		if (error_id == 0){ //proceed if we have no errors
-			var skill_table = "https://viocar.github.io/tbl/playerskilltable.tbl"; //probably should be relative but ehhhh
+			var skill_table = "https://rilne.github.io/tbl/playerskilltable.tbl"; //probably should be relative but ehhhh
 			if (box_check){
-				skill_table = "https://viocar.github.io/tbl/enemyskilltable.tbl";
+				skill_table = "https://rilne.github.io/tbl/enemyskilltable.tbl";
 			}
 			if (p_s_table != 0 && !box_check){ // check if we previously loaded p_s_table/e_s_table, and use that arraybuffer instead
 				createSkillArray(p_s_table, s_id);
